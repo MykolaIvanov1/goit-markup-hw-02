@@ -17,73 +17,83 @@
     <!--header-->
     <header class="header">
       <nav class="nav">
-        <a class="logo" href="./index.html" lang="en"
+        <a class="logo link" href="" lang="en"
           ><span class="logo-web">Web</span>Studio</a
         >
-        <ul>
-          <li><a href="">Студія</a></li>
+        <ul class="list-nav lists">
           <li>
-            <a href="./portfolio.html">Портфоліо</a>
+            <a class="link-nav link current" href="./index.html">Студія</a>
           </li>
-          <li><a href="">Контакти</a></li>
+          <li>
+            <a class="link-nav link" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li><a class="link-nav link" href="">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="list-contact lists">
         <li>
           <a
+            class="mail link"
             href="mailto:info@devstudio.com"
             target="_blank"
             rel="noopener nofollow noreferrer"
             >info@devstudio.com</a
           >
         </li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a class="phone link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <!--main-->
     <main>
       <!--герой-->
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+      <section class="hero">
+        <h1 class="title-hero">
+          Ефективні рішення для <br />
+          вашого бізнесу
+        </h1>
+        <button class="button" type="button">
+          <span class="button-text">Замовити послугу</span>
+        </button>
       </section>
-      <!--Пріоритети компанії-->
-      <section>
-        <h2>Пріоритети</h2>
-        <ul>
+      <!--priority company-->
+      <section class="priority">
+        <h2 class="headline">Пріоритети</h2>
+        <ul class="list-priority lists">
           <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+            <h3 class="title-priority">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="text-priority">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+            <h3 class="title-priority">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="text-priority">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
+            <h3 class="title-priority">ПЛАНУВАННЯ</h3>
+            <p class="text-priority">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+            <h3 class="title-priority">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="text-priority">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
           </li>
         </ul>
       </section>
-      <!--види робіт-->
-      <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
+      <!--work-->
+      <section class="work">
+        <h2 class="title-work">Чим ми займаємося</h2>
+        <ul class="lists">
           <li>
             <img
               src="./imeges/work.jpg"
@@ -108,17 +118,17 @@
         </ul>
       </section>
       <!--команда-->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="team">
+        <h2 class="title-team">Наша команда</h2>
+        <ul class="lists">
           <li>
             <img
               src="./imeges/igor.jpg"
               alt="співробітник студії"
               width="270"
             />
-            <h3>Ігор Дем'яненко</h3>
-            <p>Product Designer</p>
+            <h3 class="workers-title">Ігор Дем'яненко</h3>
+            <p class="text-job">Product Designer</p>
           </li>
           <li>
             <img
@@ -126,8 +136,8 @@
               alt="співробітниця студії"
               width="270"
             />
-            <h3>Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
+            <h3 class="workers-title">Ольга Рєпіна</h3>
+            <p class="text-job">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -135,8 +145,8 @@
               alt="співробітник студії"
               width="270"
             />
-            <h3>Микола Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="workers-title">Микола Тарасов</h3>
+            <p class="text-job">Marketing</p>
           </li>
           <li>
             <img
@@ -144,32 +154,40 @@
               alt="співробітник студії"
               width="270"
             />
-            <h3>Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+            <h3 class="workers-title">Михайло Єрмаков</h3>
+            <p class="text-job">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!--footer-->
-    <footer>
-      <a href="./index.html" lang="en">WebStudio</a>
-      <address>
+    <footer class="footer">
+      <a class="logo link" href="" lang="en"
+        ><span class="logo-web">Web</span>Studio</a
+      >
+      <address class="address">
         <a
+          class="link location"
           href="https://goo.gl/maps/bbRMfLM2c8ig8F1x9"
           target="_blank"
           rel="noopener nofollow noreferrer"
           >м. Київ, пр-т Лесі Українки, 26</a
         >
-        <ul>
+        <ul class="lists">
           <li>
             <a
+              class="link mail-footer"
               href="mailto:info@devstudio.com"
               target="_blank"
               rel="noopener nofollow noreferrer"
               >info@devstudio.com</a
             >
           </li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a class="link phone-footer" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
